@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Academy — Cursos Online</title><link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header><div class="brand">ACADEMY<span>.</span></div><nav><a href="#cursos">Cursos</a><a href="#aluno">Área do aluno</a><button id="authBtn" onclick="openAuth()">Entrar</button></nav></header>
+<main>
+<section class="hero"><div><p class="tag">APRENDA. PRATIQUE. EVOLUA.</p><h1>Conhecimento que<br><b>muda seu futuro.</b></h1><p>Uma plataforma de cursos online feita para você aprender programação e tecnologia no seu ritmo.</p><a class="primary" href="#cursos">Explorar cursos</a></div><div class="hero-card"><div class="play">▶</div><strong>Aprenda na prática</strong><span>Aulas curtas + exercícios</span></div></section>
+<section id="cursos"><div class="section-head"><div><small>CATÁLOGO</small><h2>Escolha seu próximo curso</h2></div></div><div id="courses" class="grid"></div></section>
+<section id="aluno" class="student"><div><small>ÁREA DO ALUNO</small><h2>Seu progresso em um só lugar.</h2><p>Matricule-se, acompanhe as aulas e marque o conteúdo concluído.</p></div><div id="myCourses"><p>Entre na sua conta para ver seus cursos.</p></div></section>
+</main>
+<footer>© 2026 Academy. Plataforma de cursos online.</footer>
+<div id="modal" class="modal hidden"><div class="modal-box"><button class="close" onclick="closeAuth()">×</button><div id="modalContent"></div></div></div>
+<script src="/app.js"></script>
+</body></html>
